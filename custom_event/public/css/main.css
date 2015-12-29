@@ -1,0 +1,15 @@
+.popover{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -1000;
+    left: auto;
+    max-width: 320;
+    background-color: #AAA;
+    padding: 10px;
+
+    /*transition*/
+    -webkit-transition: right 0.5s;
+    transition: right 0.5s;
+}
+
