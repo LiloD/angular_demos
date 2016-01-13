@@ -1,0 +1,18 @@
+{
+  "name": "carousel-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "LiloD <zhizhuoding@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/LiloD/angular_demos",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

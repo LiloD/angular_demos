@@ -1,0 +1,27 @@
+
+.logo, .cart-icon, .login-icon {
+	display: inline-block;
+	z-index: 9999;
+}
+
+.logo {
+	background-color: white;
+	position: absolute;
+	top: 20px;
+	left: 10%;
+}
+
+.cart-icon {
+	background-color: white;
+	position: absolute;
+	top: 20px;
+	right: 20%;
+}
+
+.login-icon {
+	background-color: white;
+	position: absolute;
+	top: 20px;
+	right: 10%;
+}
+

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<script type="text/javascript" src="/bower_components/angular-animate/angular-animate.js"></script>
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+	<link rel="stylesheet" type="text/css" href="/public/css/pickies-main.css">
+</head>
+<body ng-app="main">
+	<nav>
+		<div class="logo">
+			Logo
+		</div>
+		<div class="cart-icon">
+			Cart
+		</div>
+		<div class="login-icon">
+			Login
+		</div>
+	</nav>
+	<div ng-controller="CarouselCtrl" style="height: 400px;" >
+		<uib-carousel interval="slidesInterval" no-wrap="false" template-url="pickies/template/carousel.html">
+			<uib-slide ng-repeat="slide in slides" active="slide.active" index="slide.id">
+				<div ng-style="{'background-color': slide.color}" style="height: 400px; width: auto;"></div>
+			</uib-slide>
+		</uib-carousel>
+	</div>
+	
+	<script type="text/javascript" src="/public/js/customtpls.js"></script>
+	<script type="text/javascript" src="/public/js/app.js"></script>
+
+</body>
+</html>
